@@ -2,7 +2,7 @@
   "name": "krish-desai-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://krishd22.github.io/portfolio",
+  "homepage": "https://krishd22.github.io/Portfolio",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
