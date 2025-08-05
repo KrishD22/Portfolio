@@ -41,7 +41,7 @@ const Navbar = () => {
         scrolled ? 'glass-effect' : 'bg-transparent'
       }`}
     >
-      <div className="container-custom section-padding">
+      <div className="container-custom px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <motion.div
@@ -98,9 +98,9 @@ const Navbar = () => {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="md:hidden mt-4 pb-4"
+              className="md:hidden mt-6 pb-6"
             >
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-6">
                 {navItems.map((item) => (
                   <motion.button
                     key={item.name}

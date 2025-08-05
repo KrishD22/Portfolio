@@ -129,7 +129,7 @@ const Hero = () => {
           className="text-center max-w-4xl mx-auto"
         >
           {/* Greeting */}
-          <motion.div variants={itemVariants} className="mb-6">
+          <motion.div variants={itemVariants} className="mb-8">
             <motion.span 
               className="text-lg md:text-xl text-accent-500 font-mono"
               animate={{ opacity: isTyping ? [1, 0.5, 1] : 1 }}
@@ -140,12 +140,12 @@ const Hero = () => {
           </motion.div>
 
           {/* Name */}
-          <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6">
+          <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl lg:text-8xl font-bold mb-12">
             <span className="gradient-text">Krish Desai</span>
           </motion.h1>
 
           {/* Animated Tagline */}
-          <motion.div variants={itemVariants} className="mb-8">
+          <motion.div variants={itemVariants} className="mb-12">
             <div className="text-2xl md:text-3xl lg:text-4xl font-semibold text-dark-300 flex items-center justify-center">
               <div className="relative overflow-hidden" style={{ minWidth: '600px' }}>
                 <div className="flex items-center justify-center">
@@ -177,14 +177,14 @@ const Hero = () => {
           </motion.div>
 
           {/* Description */}
-          <motion.p variants={itemVariants} className="text-lg md:text-xl text-dark-300 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <motion.p variants={itemVariants} className="text-lg md:text-xl text-dark-300 mb-16 max-w-2xl mx-auto leading-relaxed">
             A passionate software developer and research assistant with expertise in full-stack development, 
             machine learning, and AI-powered applications. Currently pursuing the International Baccalaureate 
             program while working as a Founding Engineer at Rounds.so and Research Assistant at University of Toronto.
           </motion.p>
 
           {/* Stats */}
-          <motion.div variants={itemVariants} className="flex justify-center items-center gap-8 mb-12 text-sm">
+          <motion.div variants={itemVariants} className="flex justify-center items-center gap-8 mb-16 text-sm">
             <div className="text-center">
               <div className="text-2xl font-bold gradient-text">3+</div>
               <div className="text-dark-400">Years Experience</div>
@@ -202,7 +202,7 @@ const Hero = () => {
           </motion.div>
 
           {/* CTA Buttons */}
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-20">
             <motion.a
               href="/KrishDesaiResume.pdf"
               download="KrishDesaiResume.pdf"
@@ -272,7 +272,7 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-16 left-1/2 transform -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}
