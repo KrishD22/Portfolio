@@ -204,10 +204,8 @@ const Hero = () => {
           {/* CTA Buttons */}
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-20">
             <motion.a
-              href="/KrishDesaiResume.pdf"
+              href={`${process.env.PUBLIC_URL}/KrishDesaiResume.pdf`}
               download="KrishDesaiResume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white rounded-full font-semibold flex items-center gap-2 transition-all duration-300 shadow-lg hover:shadow-accent-500/25 group"

@@ -67,10 +67,8 @@ const Navbar = () => {
             
             {/* Resume Button */}
             <motion.a
-              href="/KrishDesaiResume.pdf"
+              href={`${process.env.PUBLIC_URL}/KrishDesaiResume.pdf`}
               download="KrishDesaiResume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-6 py-2 bg-accent-500 hover:bg-accent-600 text-white rounded-full font-medium transition-colors duration-200"
@@ -112,10 +110,8 @@ const Navbar = () => {
                   </motion.button>
                 ))}
                 <motion.a
-                  href="/KrishDesaiResume.pdf"
+                  href={`${process.env.PUBLIC_URL}/KrishDesaiResume.pdf`}
                   download="KrishDesaiResume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   className="px-6 py-2 bg-accent-500 hover:bg-accent-600 text-white rounded-full font-medium transition-colors duration-200 text-center"
                 >
